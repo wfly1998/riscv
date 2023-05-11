@@ -56,6 +56,20 @@ pub mod stval;
 // Supervisor Protection and Translation
 pub mod satp;
 
+// Hypervisor Trap Setup
+pub mod hcounteren;
+pub mod hedeleg;
+pub mod hideleg;
+
+// Hypervisor Trap Handling
+pub mod hvip;
+
+// Hypervisor Protection and Translation
+pub mod hgatp;
+
+// Virtual Supervisor Trap Handling
+pub mod vsie;
+
 // Machine Information Registers
 pub mod marchid;
 pub mod mhartid;
